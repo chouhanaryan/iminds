@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|Poppins:200,300,400,500,500i,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|Rubik:200,300,400,500,500i,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700|Rubik:200,300,400,500,500i,600,700,800&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -94,7 +94,7 @@ button {
 
 /* line 38, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #2E004B;
 }
 
@@ -368,7 +368,7 @@ h3 {
   color: #04D2C8;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -403,7 +403,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 12px 27px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: 0;
@@ -441,7 +441,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -992,7 +992,7 @@ h3 {
   font-weight: 400;
   display: inline-block;
   padding: 34px 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -1367,7 +1367,7 @@ h3 {
 }
 
 /* line 14, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_about.scss */
-.about_area .single_about_info h3 {
+.about_area .single_about_info h1 {
   font-size: 46px;
   line-height: 56px;
   font-weight: 400;
@@ -1375,7 +1375,7 @@ h3 {
 
 @media (max-width: 767px) {
   /* line 14, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_about.scss */
-  .about_area .single_about_info h3 {
+  .about_area .single_about_info h1 {
     font-size: 25px;
     line-height: 32px;
   }
@@ -1383,7 +1383,7 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 14, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_about.scss */
-  .about_area .single_about_info h3 {
+  .about_area .single_about_info h1 {
     font-size: 25px;
     line-height: 32px;
   }
@@ -1391,9 +1391,11 @@ h3 {
 
 /* line 27, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_about.scss */
 .about_area .single_about_info p {
-  font-size: 17px;
+  text-align: justify;
+  /* text-justify: inter-word; */
+  font-size: 20px;
   font-weight: 400;
-  color: #727272;
+  color: #5e5c5c;
   margin-top: 10px;
   margin-bottom: 42px;
 }
@@ -1513,7 +1515,7 @@ h3 {
   content: "";
   width: 100%;
   height: 100%;
-  background: #FD8E5E;
+  background: #f95109;
   border-radius: 50%;
   opacity: .7;
   left: 0;
@@ -1576,7 +1578,7 @@ h3 {
   content: "";
   width: 100%;
   height: 100%;
-  background: #5DB2FF;
+  background: #1f6bb3;
   border-radius: 50%;
   opacity: .7;
   left: 0;
@@ -1639,7 +1641,7 @@ h3 {
   content: "";
   width: 100%;
   height: 100%;
-  background: #04D2C8;
+  background: #03a29a;
   border-radius: 50%;
   opacity: .7;
   left: 0;
@@ -2781,7 +2783,7 @@ font-size: large;
 /* line 66, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_team.scss */
 .our_team_member .single_team .master_name h3 {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #1F1F1F;
   font-weight: 400;
   margin-top: 25px;
@@ -2953,7 +2955,7 @@ font-size: large;
   color: #fff;
   line-height: 56px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2968,7 +2970,7 @@ font-size: large;
 .courses_details_banner .course_text .prise span {
   font-size: 30px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -3024,7 +3026,7 @@ font-size: large;
   font-size: 18px;
   padding-left: 14px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 /* line 75, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
@@ -3191,7 +3193,7 @@ font-size: large;
   font-size: 18px;
   color: #1F1F1F;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   margin-bottom: 27px;
 }
 
@@ -3200,7 +3202,7 @@ font-size: large;
   font-size: 14px;
   color: #1F1F1F;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   margin-bottom: 0;
 }
 
@@ -3214,7 +3216,7 @@ font-size: large;
 .courses_details_info .courses_sidebar .feedback_info textarea {
   margin-top: 15px;
   border: 1px solid #E8E8E8;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 17px;
   padding: 15px;
   margin-bottom: 30px;
@@ -3223,7 +3225,7 @@ font-size: large;
 
 /* line 210, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_course_details.scss */
 .courses_details_info .courses_sidebar .feedback_info textarea::placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 17px;
 }
 
@@ -3247,7 +3249,7 @@ font-size: large;
   font-size: 24px;
   color: #fff;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 34px;
   margin-top: 26px;
   margin-bottom: 22px;
@@ -3366,14 +3368,14 @@ font-size: large;
 .popular_courses .single_courses .courses_info span {
   font-size: 14px;
   color: #4D4D4D;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 /* line 44, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_popular_courses.scss */
 .popular_courses .single_courses .courses_info h3 {
   font-size: 18px;
   color: #1F1F1F;
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   line-height: 28px;
   margin-top: 11px;
@@ -3488,7 +3490,7 @@ font-size: large;
 
 /* line 124, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_popular_courses.scss */
 .popular_courses .course_nav .nav li a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   padding: 30px 0;
   font-size: 16px;
