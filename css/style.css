@@ -3246,7 +3246,7 @@ font-size: large;
 
 /* line 17, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_testmonial.scss */
 .testimonial_area .testmonial_text p {
-  font-size: 24px;
+  font-size: 30px;
   color: #fff;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
@@ -3271,7 +3271,8 @@ font-size: large;
 
 /* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_testmonial.scss */
 .testimonial_area .testmonial_text span {
-  font-size: 16px;
+  font-style: italic;
+  font-size: 22px;
   color: #fff;
   font-weight: 400;
 }
